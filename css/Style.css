@@ -1,0 +1,139 @@
+a #logo-text, a > img{
+    float: left;
+}
+#logo-text{
+    margin-left: 8px;
+}
+#logo-text > h1{
+color: green;
+text-transform: uppercase;
+text-shadow: 0px 2px 2px #000;
+
+}
+body{
+    background-color: #7c0235;
+}
+#header{
+    background-color:rgb(198, 245, 11);
+}
+.navbar-nav .nav-item > .nav-link {
+    text-align: center;
+    font-size: 1.25em;
+    color: brown;
+}
+.navbar-nav .nav-item.active > .nav-link {
+
+    color: brown;
+}
+.navbar-nav .nav-item > .nav-link:hover {
+    background-color:#fff;
+}
+
+
+#phone{
+    font-size: 1.6em;
+    font-weight: bold;
+    color: #7c0235;
+}
+#Deliver{
+    float: right;
+    color: black;
+}
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    #logo-text > h1{
+        font-size: 0.9em;
+    }
+    .home-tiles > img {
+        width: 100%;
+
+    }
+    footer .container .row div{
+        text-align: center;
+    }
+ }
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+   
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { .navbar-nav{
+    position: relative;
+    top: -43px;
+} 
+ }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { .navbar-nav{
+    position: relative;
+    top: -43px;
+}
+
+ }
+ .jumbotron > img{
+     height: 100%;
+     width: 100%;
+ }
+ .jumbotron{
+     padding: 0px;
+     margin-top: 16px;
+     border: 2px solid #000;
+     box-shadow: 0 0 10px #000 ;
+ }
+ .home-tiles{
+     display: block;
+     height: 250px;
+     border: 1px solid #000;
+     box-shadow: 0 0 10px #000;
+     border-radius: 10px ;
+     overflow: hidden;
+     margin-bottom: 8px ;
+     position: relative;
+
+ }
+  .home-tiles:hover{
+    box-shadow: 0 0 10px #fff ;
+    
+  }
+  .home-tiles >span{
+      background-color: black;
+      opacity: 0.6;
+      font-size: 1.5em;
+      position: absolute;
+      color: #fff;
+      text-transform: uppercase;
+      display: block;
+      width: 100%;
+      text-align: center;
+      bottom: 0px;
+      left: 0px;
+
+  }
+  footer{
+      background: #000;
+      color: #fff;
+      margin-top: 16px;
+      padding: 16px 0px;
+  }
+  #deliver-limit{
+      color: #0d7702;
+      font-size: 0.8em;
+  }
+  footer .container .row div:nth-child(5){
+      font-style: italic;
+  }
+ 
+  footer .container .row div hr{
+     border: 1px solid #fff;
+     width: 50%;
+  }
+  footer .container .row div{
+    margin-bottom: 16px;
+}
+
